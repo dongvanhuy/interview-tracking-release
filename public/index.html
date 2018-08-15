@@ -1,1 +1,26 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,shrink-to-fit=no"><meta name="theme-color" content="#000000"><link rel="manifest" href="/manifest.json"><link rel="shortcut icon" href="/favicon-32x32.png"><link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><script src="/obmPinEncryptionMin.js"></script><title>Interview Tracking</title><link href="/static/css/main.5f573cdd.css" rel="stylesheet"></head><script src="https://use.fontawesome.com/7bfa61cd5b.js"></script><body><noscript>You need to enable JavaScript to run this app.</noscript><div class="root"></div><div></div><script type="text/javascript" src="/static/js/main.a76a45aa.js"></script></body></html>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,shrink-to-fit=no"><meta name="theme-color" content="#000000"><link rel="manifest" href="/manifest.json"><link rel="shortcut icon" href="/favicon-32x32.png"><link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><script src="/obmPinEncryptionMin.js"></script><title>Interview Tracking</title><link href="/static/css/main.6ab4efd6.css" rel="stylesheet"></head><script src="https://use.fontawesome.com/7bfa61cd5b.js"></script><body><noscript>You need to enable JavaScript to run this app.</noscript><div class="root"></div><script>let deferredPrompt;
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+      // Prevent Chrome 67 and earlier from automatically showing the prompt
+      e.preventDefault();
+      // Stash the event so it can be triggered later.
+      deferredPrompt = e;
+      // Update UI notify the user they can add to home screen
+      btnAdd.style.display = 'block';
+    });
+    btnAdd.addEventListener('click', (e) => {
+      // hide our user interface that shows our A2HS button
+      btnAdd.style.display = 'none';
+      // Show the prompt
+      deferredPrompt.prompt();
+      // Wait for the user to respond to the prompt
+      deferredPrompt.userChoice
+        .then((choiceResult) => {
+          if (choiceResult.outcome === 'accepted') {
+            console.log('User accepted the A2HS prompt');
+          } else {
+            console.log('User dismissed the A2HS prompt');
+          }
+          deferredPrompt = null;
+        });
+    });</script><div></div><script type="text/javascript" src="/static/js/main.6f7404b4.js"></script></body></html>
