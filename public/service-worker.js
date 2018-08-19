@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox
 self.__precacheManifest = [
   {
     "url": "asset-manifest.json",
-    "revision": "72b698ac3f5e4dfa281295d4854d46b8"
+    "revision": "d73215e27c0c3317a0b625e71dd8fb11"
   },
   {
     "url": "dxclogo192x192.png",
@@ -37,23 +37,23 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "2ae36cadbf88e259129d4f6fdf79b209"
+    "revision": "b192537b79770e23fbff2637963ee3b7"
   },
   {
     "url": "manifest.json",
     "revision": "04e34ad4e69d8ee23674d9bc96cfb60d"
   },
   {
-    "url": "obmPinEncryptionMin.js",
-    "revision": "be5a2cd2791f98264fb3aa831f668c67"
+    "url": "static/css/main.1c43c246.css",
+    "revision": "8b947f65a21292344633bb21b3819e5b"
   },
   {
-    "url": "static/css/main.6ab4efd6.css",
-    "revision": "82e933805aa8669090ddda87af963766"
+    "url": "static/js/main.41326371.js",
+    "revision": "251fc3371f35a5e66fdf64edf4aaf62c"
   },
   {
-    "url": "static/js/main.e4884a38.js",
-    "revision": "6a0ffa0ee80153a6d0d89bc569d53d60"
+    "url": "static/media/dxcLogo.8500f535.svg",
+    "revision": "8500f53521d6cbd1d3cb2253b0e5f888"
   },
   {
     "url": "static/media/glyphicons-halflings-regular.448c34a5.woff2",
@@ -84,13 +84,17 @@ self.__precacheManifest = [
     "revision": "7052fe6d98383402c64153edbfd406a9"
   },
   {
-    "url": "static/media/logodxc.48ac4fef.png",
-    "revision": "48ac4fef1a4bb943e32f7dd22e29c8b8"
-  },
-  {
     "url": "static/media/ProximaNova-Bold.72b6f2c9.otf",
     "revision": "72b6f2c9990bd3d37b8013a59ed78902"
+  },
+  {
+    "url": "styles/index.css",
+    "revision": "664a9bd3b2ac169293391ea33b132bd6"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
+
+workbox.routing.registerRoute(/https:\/\/dxc-intervieweetracking-api.azurewebsites.net\/api\/(.*)/, workbox.strategies.networkFirst(), 'GET');
+workbox.routing.registerRoute(/https:\/\/dxc-intervieweetracking-api.azurewebsites.net\/api\/(.*)/, workbox.strategies.staleWhileRevalidate({ plugins: [new workbox.cacheableResponse.Plugin({"statuses":[0,200]})] }), 'GET');
+workbox.routing.registerRoute(/https:\/\/dxc-intervieweetracking-api.azurewebsites.net\/api\/(.*)/, workbox.strategies.cacheFirst({ plugins: [new workbox.cacheableResponse.Plugin({"statuses":[0,200]})] }), 'GET');
