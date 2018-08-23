@@ -1,5 +1,5 @@
 const tenantName = "CSCPortal.onmicrosoft.com";
-const clientID = "fede1873-aa95-4256-b554-1aa5a89e26ef";
+const clientID = "9a29d40d-8291-46d0-ab97-4e650a71f363";
 const serverPort = 3000;
 
 module.exports.serverPort = serverPort;
