@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox
 self.__precacheManifest = [
   {
     "url": "asset-manifest.json",
-    "revision": "940aca8bd6b4366873ccdea6561eb073"
+    "revision": "8e8832ed30a59fa953c40077347265fd"
   },
   {
     "url": "dxclogo192x192.png",
@@ -37,19 +37,19 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "3d52d2c21a37ab73ff4e5cd473f162dc"
+    "revision": "e73415e5207651312022d18c08225335"
   },
   {
     "url": "manifest.json",
     "revision": "04e34ad4e69d8ee23674d9bc96cfb60d"
   },
   {
-    "url": "static/css/main.822e4464.css",
-    "revision": "653d42242afe93f9142369143835f034"
+    "url": "static/css/main.fac5c32d.css",
+    "revision": "424125dfef0c33448a29a410014ee2f0"
   },
   {
-    "url": "static/js/main.56f16fcc.js",
-    "revision": "9462f468f6e592aa57633ae541c316a4"
+    "url": "static/js/main.d50db94b.js",
+    "revision": "c07e6d01d443ad1d971dbba751a62ead"
   },
   {
     "url": "static/media/dxcLogo.8500f535.svg",
@@ -84,16 +84,12 @@ self.__precacheManifest = [
     "revision": "7052fe6d98383402c64153edbfd406a9"
   },
   {
-    "url": "static/media/illustration.68e13737.png",
-    "revision": "68e13737d82e40acba0554b8abb08b16"
-  },
-  {
-    "url": "static/media/loading.1336a69b.svg",
-    "revision": "1336a69b3b60ec204ed4d6685c3dfdfb"
-  },
-  {
     "url": "static/media/ProximaNova-Bold.72b6f2c9.otf",
     "revision": "72b6f2c9990bd3d37b8013a59ed78902"
+  },
+  {
+    "url": "styles/index.css",
+    "revision": "664a9bd3b2ac169293391ea33b132bd6"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
