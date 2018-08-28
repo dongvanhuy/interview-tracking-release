@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.fac5c32d.css",
-  "main.css.map": "static/css/main.fac5c32d.css.map",
-  "main.js": "static/js/main.d50db94b.js",
-  "main.js.map": "static/js/main.d50db94b.js.map",
+  "main.css": "static/css/main.822e4464.css",
+  "main.css.map": "static/css/main.822e4464.css.map",
+  "main.js": "static/js/main.0583a59d.js",
+  "main.js.map": "static/js/main.0583a59d.js.map",
   "static\\media\\GTWalsheimProBold.woff": "static/media/GTWalsheimProBold.de407daa.woff",
   "static\\media\\GTWalsheimProRegular.woff": "static/media/GTWalsheimProRegular.7052fe6d.woff",
   "static\\media\\ProximaNova-Bold.otf": "static/media/ProximaNova-Bold.72b6f2c9.otf",
@@ -11,5 +11,7 @@
   "static\\media\\glyphicons-halflings-regular.svg": "static/media/glyphicons-halflings-regular.89889688.svg",
   "static\\media\\glyphicons-halflings-regular.ttf": "static/media/glyphicons-halflings-regular.e18bbf61.ttf",
   "static\\media\\glyphicons-halflings-regular.woff": "static/media/glyphicons-halflings-regular.fa277232.woff",
-  "static\\media\\glyphicons-halflings-regular.woff2": "static/media/glyphicons-halflings-regular.448c34a5.woff2"
+  "static\\media\\glyphicons-halflings-regular.woff2": "static/media/glyphicons-halflings-regular.448c34a5.woff2",
+  "static\\media\\illustration.png": "static/media/illustration.68e13737.png",
+  "static\\media\\loading.svg": "static/media/loading.1336a69b.svg"
 }
