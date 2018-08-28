@@ -3,16 +3,12 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"start": "node app.js"
+		"start": "node server.js"
 	},
 	"dependencies": {
 		"cfenv": "1.0.x",
-		"express": "^4.16.3",
-		"passport": "0.4.0",
-		"passport-azure-ad": "^4.0.0",
-		"restify": "^6.0.1",
-		"restify-plugins": "^1.6.0",
-		"serve-static-restify": "^3.0.0"
+		"express": "4.15.x",
+		"path": "^0.12.7"
 	},
 	"repository": {},
 	"engines": {

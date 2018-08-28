@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox
 self.__precacheManifest = [
   {
     "url": "asset-manifest.json",
-    "revision": "940aca8bd6b4366873ccdea6561eb073"
+    "revision": "51eb4d10334602ef82564ba98716a34b"
   },
   {
     "url": "dxclogo192x192.png",
@@ -37,7 +37,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "3d52d2c21a37ab73ff4e5cd473f162dc"
+    "revision": "819a23288f910f99699095b5955eb59d"
   },
   {
     "url": "manifest.json",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "revision": "653d42242afe93f9142369143835f034"
   },
   {
-    "url": "static/js/main.56f16fcc.js",
-    "revision": "9462f468f6e592aa57633ae541c316a4"
+    "url": "static/js/main.0583a59d.js",
+    "revision": "4cfc7c229bfdf1141f78962d5ad7aef8"
   },
   {
     "url": "static/media/dxcLogo.8500f535.svg",
@@ -94,6 +94,10 @@ self.__precacheManifest = [
   {
     "url": "static/media/ProximaNova-Bold.72b6f2c9.otf",
     "revision": "72b6f2c9990bd3d37b8013a59ed78902"
+  },
+  {
+    "url": "styles/index.css",
+    "revision": "664a9bd3b2ac169293391ea33b132bd6"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();

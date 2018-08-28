@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/18513212-8d27-49a7-b1c9-7273965ad6a1/resourceGroups/dxc-interview-tracking/providers/Microsoft.Web/sites/dxc-interview-tracking-release-test",
+    "appService.deploySubpath": ""
+}
