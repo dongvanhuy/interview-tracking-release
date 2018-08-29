@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox
 self.__precacheManifest = [
   {
     "url": "asset-manifest.json",
-    "revision": "bb855f493b6aacdf2692f68b139659cf"
+    "revision": "4ab642976620a7c39cacb497b9abb16e"
   },
   {
     "url": "dxclogo192x192.png",
@@ -37,7 +37,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "57b3a433741171f998a9338a8094266f"
+    "revision": "c3f89eedbc472aad1e8537a1a013ac9d"
   },
   {
     "url": "manifest.json",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "revision": "e288e157fa3c00e324e04fc50a8706ad"
   },
   {
-    "url": "static/js/main.12bcd427.js",
-    "revision": "a07f3d05b6ed856ee098e856c8c7da4e"
+    "url": "static/js/main.9f9182c1.js",
+    "revision": "33e83ff3adde5111a2b27c20540cb7d3"
   },
   {
     "url": "static/media/dxcLogo.8500f535.svg",
