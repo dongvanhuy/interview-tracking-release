@@ -20,10 +20,10 @@ var app = express();
 
 // serve the files out of ./public as our main files
 app.use(express.static(path.join(__dirname, '.', 'public')));
+app.use(express.static(path.join(__dirname, '.', 'public','manifest.json')));
 app.get('*', (req, res) => {
   console.log('dzoooo');
   res.sendFile(path.join(__dirname, '.', 'public', 'index.html'));
-  res.sendFile(path.join(__dirname, '.', 'public', 'manifest.json'));
 }); 
 //app.use('/',express.static(path.resolve(__dirname, '.', 'public')));
 // get the app environment from Cloud Foundry
