@@ -23,6 +23,7 @@ app.use(express.static(path.join(__dirname, '.', 'public')));
 app.get('*', (req, res) => {
   console.log('dzoooo');
   res.sendFile(path.join(__dirname, '.', 'public', 'index.html'));
+  res.sendFile(path.join(__dirname, '.', 'public', 'manifest.json'));
 }); 
 //app.use('/',express.static(path.resolve(__dirname, '.', 'public')));
 // get the app environment from Cloud Foundry
