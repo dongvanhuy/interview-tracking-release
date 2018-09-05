@@ -13,6 +13,9 @@
 
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js");
 
+workbox.skipWaiting();
+workbox.clientsClaim();
+
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
  * requests for URLs in the manifest.
@@ -21,7 +24,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox
 self.__precacheManifest = [
   {
     "url": "asset-manifest.json",
-    "revision": "a531106452d72ca980c9b857bd8fb3c7"
+    "revision": "03fe545573ecc1f991e3e9a4b831b9c7"
   },
   {
     "url": "dxclogo192x192.png",
@@ -37,19 +40,19 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "90ec164bb1476f8d9872edc74f4712db"
+    "revision": "0d98f17b7fc6e23916e9b00717d3cc41"
   },
   {
     "url": "manifest.json",
-    "revision": "beea00321b259ed6b9e0e1000d0b2013"
+    "revision": "b0a14f49e2067a7a9a7c9ceba84de8c3"
   },
   {
-    "url": "static/css/main.0258780e.css",
-    "revision": "e288e157fa3c00e324e04fc50a8706ad"
+    "url": "static/css/main.11e31fe2.css",
+    "revision": "8cf89dc02444fd3440d6405a73f341df"
   },
   {
-    "url": "static/js/main.13c7a44c.js",
-    "revision": "5dc3a6789e6119f3ac8c7ba26a31d52f"
+    "url": "static/js/main.594d7d24.js",
+    "revision": "df76c9d222a42a6ad3f2f1a91d6fdf30"
   },
   {
     "url": "static/media/dxcLogo.8500f535.svg",
@@ -94,6 +97,10 @@ self.__precacheManifest = [
   {
     "url": "static/media/ProximaNova-Bold.72b6f2c9.otf",
     "revision": "72b6f2c9990bd3d37b8013a59ed78902"
+  },
+  {
+    "url": "styles/index.css",
+    "revision": "664a9bd3b2ac169293391ea33b132bd6"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
@@ -103,4 +110,4 @@ workbox.routing.registerNavigationRoute("/index.html");
 
 workbox.routing.registerRoute(/https:\/\/dxc-interview-tracking-api-release.azurewebsites.net\/api\/(.*)/, workbox.strategies.networkFirst(), 'GET');
 workbox.routing.registerRoute(/https:\/\/dxc-interview-tracking-api-release.azurewebsites.net\/api\/(.*)/, workbox.strategies.staleWhileRevalidate({ plugins: [new workbox.cacheableResponse.Plugin({"statuses":[0,200]})] }), 'GET');
-workbox.routing.registerRoute(/https:\/\/dxc-interview-tracking-api-release.azurewebsites.net\/api\/(.*)/, workbox.strategies.cacheFirst({ plugins: [new workbox.cacheableResponse.Plugin({"statuses":[0,200]})] }), 'GET');
+workbox.routing.registerRoute(/https:\/\/dxc-interview-tracking-api-release.azurewebsites.net\/api\/(.*)/, workbox.strategies.cacheFirst({ cacheName: "my-api-cache", plugins: [new workbox.expiration.Plugin({"maxEntries":50,"maxAgeSeconds":2592000,"purgeOnQuotaError":false}), new workbox.cacheableResponse.Plugin({"statuses":[0,200]})] }), 'GET');

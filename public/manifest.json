@@ -3,12 +3,12 @@
   "name": "Interview Tracking",
   "icons": [
     {
-      "src": "/dxclogo192x192.png",
+      "src": "./dxclogo192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/dxclogo512x512.png",
+      "src": "./dxclogo512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
@@ -23,5 +23,6 @@
       "platform": "tracking",
       "id": "com.dxc.techonology"
     }
-  ]
+  ],
+  "gcm_sender_id": "625437047446"
 }
