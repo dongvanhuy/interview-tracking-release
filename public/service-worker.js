@@ -27,48 +27,40 @@ self.__precacheManifest = [
     "revision": "cf9642f8b84826020f4f7a481a5d1f53"
   },
   {
-    "url": "dxclogo192x192.png",
-    "revision": "bc983413f7faf6adbeefee93ab91240b"
-  },
-  {
-    "url": "dxclogo512x512.png",
-    "revision": "3528ba5c85bda441d035d2838019554b"
-  },
-  {
     "url": "favicon-32x32.png",
     "revision": "2c9781750fbcb16ebd475c7149e15d7d"
   },
   {
     "url": "images/icons/icon-128x128.png",
-    "revision": "5cbdb95eba0b3dd4eb10e4c8e78a7be5"
+    "revision": "6aa181828d6569d9c291eac3401100dd"
   },
   {
     "url": "images/icons/icon-144x144.png",
-    "revision": "4c1ea81a7a6ab663c8ba155ae0c0aad0"
+    "revision": "ae6ab6cfe1b7073dd3798d8abb962cac"
   },
   {
     "url": "images/icons/icon-152x152.png",
-    "revision": "462a84743116f4506d71692f5588d8a8"
+    "revision": "62369812c2402585fcfcd11147c5ae23"
   },
   {
     "url": "images/icons/icon-192x192.png",
-    "revision": "a4089d3036cbd4b023cd12f36edbec07"
+    "revision": "c881bc7340b9908e8c57743dc5afb128"
   },
   {
     "url": "images/icons/icon-384x384.png",
-    "revision": "65d598def1c91aebe8e6c5169b95216b"
+    "revision": "d02f1da8aad8b80145777936d738a8f1"
   },
   {
     "url": "images/icons/icon-512x512.png",
-    "revision": "b186d159d59b3e399731dedcab1a215c"
+    "revision": "55fc30c5d195b21ad508ba71625e5d3e"
   },
   {
     "url": "images/icons/icon-72x72.png",
-    "revision": "dae20dda483d26c779bb9f77160e4d0f"
+    "revision": "bb8d6f128ff56b6623bca0a258aa656a"
   },
   {
     "url": "images/icons/icon-96x96.png",
-    "revision": "9a8ad6ec8b5a96c74330b2ca1c9020c1"
+    "revision": "d07a9a17bee53c5454a9a750afe5c7e2"
   },
   {
     "url": "index.html",
@@ -76,7 +68,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.json",
-    "revision": "190c5a55e0ba49b3bbaa0e20d2e7f471"
+    "revision": "4c4e09742107af399edb11d83e25efe5"
   },
   {
     "url": "static/css/main.342b5aac.css",
