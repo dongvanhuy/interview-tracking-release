@@ -64,7 +64,43 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "60bd11c309d62ab8961af333f1fd290a"
+    "revision": "50df8fbf6c59882788465bde0ea42280"
+  },
+  {
+    "url": "ios_splash.js",
+    "revision": "35f77a0b74e0426ebf0bce70d3cb9992"
+  },
+  {
+    "url": "ios/icon_ipad_ios6_retina.png",
+    "revision": "55272ac345e3e899cd3ecbe10d3a1179"
+  },
+  {
+    "url": "ios/icon_ipad_ios6.png",
+    "revision": "4de01d39cfc5b1d7198e56d955603466"
+  },
+  {
+    "url": "ios/icon_ipad_ios7_retina.png",
+    "revision": "db6682c26f1d5f569e695be4788474bf"
+  },
+  {
+    "url": "ios/icon_ipad_ios7.png",
+    "revision": "becd43825477b19d4178996143c44d0b"
+  },
+  {
+    "url": "ios/icon_iphone_ios6_retina.png",
+    "revision": "7cfacb1fe61f4f6c73e0f0868eeedc79"
+  },
+  {
+    "url": "ios/icon_iphone_ios6.png",
+    "revision": "e9cd9f234fe1ee3afb1819304f5f55ad"
+  },
+  {
+    "url": "ios/icon_iphone_ios7_retina.png",
+    "revision": "71915a195d92e2260f9048ff0fa168dd"
+  },
+  {
+    "url": "ios/icon_iphone_ios7.png",
+    "revision": "dc839afa33448f1b53e0573224716f7c"
   },
   {
     "url": "manifest.json",
