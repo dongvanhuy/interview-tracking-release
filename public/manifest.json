@@ -1,11 +1,11 @@
 {
   "name": "Interview Tracking",
-  "short_name": "interview-tracking",
+  "short_name": "interview",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
-  "display": "standalone",
+  "display": "fullscreen",
   "Scope": "/",
-  "start_url": "https://dxc-interview-tracking-release.azurewebsites.net/profile",
+  "start_url": "/?utm_source=homescreen",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
@@ -47,6 +47,5 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ],
-  "splash_pages": null
+  ]
 }
