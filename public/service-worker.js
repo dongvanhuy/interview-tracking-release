@@ -31,35 +31,35 @@ self.__precacheManifest = [
     "revision": "2c9781750fbcb16ebd475c7149e15d7d"
   },
   {
-    "url": "images/icons/icon-128x128.png",
+    "url": "images/icon-128x128.png",
     "revision": "6aa181828d6569d9c291eac3401100dd"
   },
   {
-    "url": "images/icons/icon-144x144.png",
+    "url": "images/icon-144x144.png",
     "revision": "ae6ab6cfe1b7073dd3798d8abb962cac"
   },
   {
-    "url": "images/icons/icon-152x152.png",
+    "url": "images/icon-152x152.png",
     "revision": "62369812c2402585fcfcd11147c5ae23"
   },
   {
-    "url": "images/icons/icon-192x192.png",
+    "url": "images/icon-192x192.png",
     "revision": "c881bc7340b9908e8c57743dc5afb128"
   },
   {
-    "url": "images/icons/icon-384x384.png",
+    "url": "images/icon-384x384.png",
     "revision": "d02f1da8aad8b80145777936d738a8f1"
   },
   {
-    "url": "images/icons/icon-512x512.png",
+    "url": "images/icon-512x512.png",
     "revision": "55fc30c5d195b21ad508ba71625e5d3e"
   },
   {
-    "url": "images/icons/icon-72x72.png",
+    "url": "images/icon-72x72.png",
     "revision": "bb8d6f128ff56b6623bca0a258aa656a"
   },
   {
-    "url": "images/icons/icon-96x96.png",
+    "url": "images/icon-96x96.png",
     "revision": "d07a9a17bee53c5454a9a750afe5c7e2"
   },
   {
@@ -68,7 +68,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.json",
-    "revision": "6acb0a8932385473359ce563efb5d774"
+    "revision": "24cb86a5855bb305b5e0707572ae19b9"
   },
   {
     "url": "static/css/main.c3d796cf.css",
