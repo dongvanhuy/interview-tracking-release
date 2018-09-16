@@ -31,6 +31,14 @@ self.__precacheManifest = [
     "revision": "2c9781750fbcb16ebd475c7149e15d7d"
   },
   {
+    "url": "images/icon-128x128.png",
+    "revision": "6aa181828d6569d9c291eac3401100dd"
+  },
+  {
+    "url": "images/icon-144x144.png",
+    "revision": "ae6ab6cfe1b7073dd3798d8abb962cac"
+  },
+  {
     "url": "images/icon-152x152.png",
     "revision": "62369812c2402585fcfcd11147c5ae23"
   },
@@ -56,11 +64,11 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "455c58a05a320d82f9015913c5bf7001"
+    "revision": "f5c3297c548fc8c3c0cd914297da3a15"
   },
   {
     "url": "manifest.json",
-    "revision": "24cb86a5855bb305b5e0707572ae19b9"
+    "revision": "bafca97fbd1589797b2d8d646266a346"
   },
   {
     "url": "static/css/main.c3d796cf.css",
