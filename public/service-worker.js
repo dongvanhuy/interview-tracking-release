@@ -31,14 +31,6 @@ self.__precacheManifest = [
     "revision": "2c9781750fbcb16ebd475c7149e15d7d"
   },
   {
-    "url": "images/icon-128x128.png",
-    "revision": "6aa181828d6569d9c291eac3401100dd"
-  },
-  {
-    "url": "images/icon-144x144.png",
-    "revision": "ae6ab6cfe1b7073dd3798d8abb962cac"
-  },
-  {
     "url": "images/icon-152x152.png",
     "revision": "62369812c2402585fcfcd11147c5ae23"
   },
