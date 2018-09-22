@@ -24,35 +24,95 @@ workbox.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "asset-manifest.json",
-    "revision": "7e2ad0b43170f3556997164bd9b74c4f"
-  },
-  {
-    "url": "dxclogo192x192.png",
-    "revision": "bc983413f7faf6adbeefee93ab91240b"
-  },
-  {
-    "url": "dxclogo512x512.png",
-    "revision": "3528ba5c85bda441d035d2838019554b"
+    "revision": "dcf700b37d0faa62cb6c2777a5c911d9"
   },
   {
     "url": "favicon-32x32.png",
     "revision": "2c9781750fbcb16ebd475c7149e15d7d"
   },
   {
+    "url": "images/icon-128x128.png",
+    "revision": "6aa181828d6569d9c291eac3401100dd"
+  },
+  {
+    "url": "images/icon-144x144.png",
+    "revision": "ae6ab6cfe1b7073dd3798d8abb962cac"
+  },
+  {
+    "url": "images/icon-152x152.png",
+    "revision": "62369812c2402585fcfcd11147c5ae23"
+  },
+  {
+    "url": "images/icon-192x192.png",
+    "revision": "c881bc7340b9908e8c57743dc5afb128"
+  },
+  {
+    "url": "images/icon-384x384.png",
+    "revision": "d02f1da8aad8b80145777936d738a8f1"
+  },
+  {
+    "url": "images/icon-512x512.png",
+    "revision": "55fc30c5d195b21ad508ba71625e5d3e"
+  },
+  {
+    "url": "images/icon-72x72.png",
+    "revision": "bb8d6f128ff56b6623bca0a258aa656a"
+  },
+  {
+    "url": "images/icon-96x96.png",
+    "revision": "d07a9a17bee53c5454a9a750afe5c7e2"
+  },
+  {
     "url": "index.html",
-    "revision": "0db534e26141734228c88a5ff8204c4f"
+    "revision": "387b3416498888ab72dc96c50dd6bfb6"
+  },
+  {
+    "url": "ios_splash.js",
+    "revision": "395c3cb0dd6458286156106577f08a00"
+  },
+  {
+    "url": "ios/icon_ipad_ios6_retina.png",
+    "revision": "55272ac345e3e899cd3ecbe10d3a1179"
+  },
+  {
+    "url": "ios/icon_ipad_ios6.png",
+    "revision": "4de01d39cfc5b1d7198e56d955603466"
+  },
+  {
+    "url": "ios/icon_ipad_ios7_retina.png",
+    "revision": "db6682c26f1d5f569e695be4788474bf"
+  },
+  {
+    "url": "ios/icon_ipad_ios7.png",
+    "revision": "becd43825477b19d4178996143c44d0b"
+  },
+  {
+    "url": "ios/icon_iphone_ios6_retina.png",
+    "revision": "7cfacb1fe61f4f6c73e0f0868eeedc79"
+  },
+  {
+    "url": "ios/icon_iphone_ios6.png",
+    "revision": "e9cd9f234fe1ee3afb1819304f5f55ad"
+  },
+  {
+    "url": "ios/icon_iphone_ios7_retina.png",
+    "revision": "71915a195d92e2260f9048ff0fa168dd"
+  },
+  {
+    "url": "ios/icon_iphone_ios7.png",
+    "revision": "dc839afa33448f1b53e0573224716f7c"
   },
   {
     "url": "manifest.json",
-    "revision": "b0a14f49e2067a7a9a7c9ceba84de8c3"
+    "revision": "507e97488a7caa5d9e3bcc5712921bb7"
   },
   {
-    "url": "static/css/main.b93a7c95.css",
-    "revision": "1095bc61417d6cbf322f60e2039c0186"
+    "url": "static/css/main.cbbeb560.css",
+    "revision": "fe1c4e60d9274ba17d027774612a0336"
   },
   {
-    "url": "static/js/main.6668ba62.js",
-    "revision": "74213dd030489722fce9a806dd8b66bf"
+    "url": "static/js/main.31d2aacb.js",
+    "revision": "6c5b9dbe9c422c29d1f8d08d9bf6119d"
   },
   {
     "url": "static/media/dxcLogo.8500f535.svg",
@@ -97,6 +157,10 @@ self.__precacheManifest = [
   {
     "url": "static/media/ProximaNova-Bold.72b6f2c9.otf",
     "revision": "72b6f2c9990bd3d37b8013a59ed78902"
+  },
+  {
+    "url": "styles/index.css",
+    "revision": "664a9bd3b2ac169293391ea33b132bd6"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
