@@ -24,7 +24,7 @@ workbox.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "asset-manifest.json",
-    "revision": "4d7a64f54c1013200f409e090246d8d7"
+    "revision": "8140743c23c40ead30b4ffb5f1b54979"
   },
   {
     "url": "favicon-32x32.png",
@@ -96,7 +96,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "095ac898b973ae5bac267fae96943998"
+    "revision": "9b32d963eb4343d0be73525eb310c7ac"
   },
   {
     "url": "ios_splash.js",
@@ -136,11 +136,11 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.json",
-    "revision": "c76d010758836c38c9d561e8801851ba"
+    "revision": "8263b5820dd551482730ba23f2f13d4c"
   },
   {
-    "url": "static/css/main.cbbeb560.css",
-    "revision": "fe1c4e60d9274ba17d027774612a0336"
+    "url": "static/css/main.e0d9569e.css",
+    "revision": "5b88f7970f4df308af45ee7d00040964"
   },
   {
     "url": "static/js/main.02450f17.js",
@@ -198,7 +198,7 @@ self.__precacheManifest = [
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/index.html?homescreen=1");
+workbox.routing.registerNavigationRoute("/index.html");
 
 workbox.routing.registerRoute(/https:\/\/dxc-interview-tracking-api-release.azurewebsites.net\/api\/(.*)/, workbox.strategies.networkFirst(), 'GET');
 workbox.routing.registerRoute(/https:\/\/dxc-interview-tracking-api-release.azurewebsites.net\/api\/(.*)/, workbox.strategies.staleWhileRevalidate({ plugins: [new workbox.cacheableResponse.Plugin({"statuses":[0,200]})] }), 'GET');
