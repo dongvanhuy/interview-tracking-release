@@ -31,6 +31,30 @@ self.__precacheManifest = [
     "revision": "2c9781750fbcb16ebd475c7149e15d7d"
   },
   {
+    "url": "images/android-icon-144x144.png",
+    "revision": "84d516509b5ea490b35014a7eae3b241"
+  },
+  {
+    "url": "images/android-icon-192x192.png",
+    "revision": "01fce2b9fb52790272c6cdd1c3e71287"
+  },
+  {
+    "url": "images/android-icon-36x36.png",
+    "revision": "12676526da72759fe69ce62bcaaf1739"
+  },
+  {
+    "url": "images/android-icon-48x48.png",
+    "revision": "3afcccf7641d827155a75a6f38768089"
+  },
+  {
+    "url": "images/android-icon-72x72.png",
+    "revision": "a4fce04f21486a91272c588ea5ff338c"
+  },
+  {
+    "url": "images/android-icon-96x96.png",
+    "revision": "fba053fe20df16986d309c3185417035"
+  },
+  {
     "url": "images/icon-128x128.png",
     "revision": "6aa181828d6569d9c291eac3401100dd"
   },
@@ -64,11 +88,11 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "e0bb0c6b669c49daea5a94b26ad08b3a"
+    "revision": "4aa3b4b8f70a635f2f17ccdb62ae83f3"
   },
   {
     "url": "ios_splash.js",
-    "revision": "395c3cb0dd6458286156106577f08a00"
+    "revision": "77023cc5a35c66a303853d8e50c62f89"
   },
   {
     "url": "ios/icon_ipad_ios6_retina.png",
@@ -104,7 +128,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.json",
-    "revision": "670b707e1cef0d038a49b7495590214b"
+    "revision": "af73d5b4d2ab029d8807918ec796ca96"
   },
   {
     "url": "static/css/main.cbbeb560.css",
