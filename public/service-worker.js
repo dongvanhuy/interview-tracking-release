@@ -31,30 +31,6 @@ self.__precacheManifest = [
     "revision": "2c9781750fbcb16ebd475c7149e15d7d"
   },
   {
-    "url": "images/android-icon-144x144.png",
-    "revision": "84d516509b5ea490b35014a7eae3b241"
-  },
-  {
-    "url": "images/android-icon-192x192.png",
-    "revision": "01fce2b9fb52790272c6cdd1c3e71287"
-  },
-  {
-    "url": "images/android-icon-36x36.png",
-    "revision": "12676526da72759fe69ce62bcaaf1739"
-  },
-  {
-    "url": "images/android-icon-48x48.png",
-    "revision": "3afcccf7641d827155a75a6f38768089"
-  },
-  {
-    "url": "images/android-icon-72x72.png",
-    "revision": "a4fce04f21486a91272c588ea5ff338c"
-  },
-  {
-    "url": "images/android-icon-96x96.png",
-    "revision": "fba053fe20df16986d309c3185417035"
-  },
-  {
     "url": "images/icon-128x128.png",
     "revision": "6aa181828d6569d9c291eac3401100dd"
   },
@@ -87,8 +63,40 @@ self.__precacheManifest = [
     "revision": "d07a9a17bee53c5454a9a750afe5c7e2"
   },
   {
+    "url": "images/icons/icon-128x128.png",
+    "revision": "5cbdb95eba0b3dd4eb10e4c8e78a7be5"
+  },
+  {
+    "url": "images/icons/icon-144x144.png",
+    "revision": "4c1ea81a7a6ab663c8ba155ae0c0aad0"
+  },
+  {
+    "url": "images/icons/icon-152x152.png",
+    "revision": "462a84743116f4506d71692f5588d8a8"
+  },
+  {
+    "url": "images/icons/icon-192x192.png",
+    "revision": "a4089d3036cbd4b023cd12f36edbec07"
+  },
+  {
+    "url": "images/icons/icon-384x384.png",
+    "revision": "65d598def1c91aebe8e6c5169b95216b"
+  },
+  {
+    "url": "images/icons/icon-512x512.png",
+    "revision": "b186d159d59b3e399731dedcab1a215c"
+  },
+  {
+    "url": "images/icons/icon-72x72.png",
+    "revision": "dae20dda483d26c779bb9f77160e4d0f"
+  },
+  {
+    "url": "images/icons/icon-96x96.png",
+    "revision": "9a8ad6ec8b5a96c74330b2ca1c9020c1"
+  },
+  {
     "url": "index.html",
-    "revision": "4aa3b4b8f70a635f2f17ccdb62ae83f3"
+    "revision": "98e4affaa0c728bbaecc595c17cdb69c"
   },
   {
     "url": "ios_splash.js",
@@ -128,7 +136,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.json",
-    "revision": "af73d5b4d2ab029d8807918ec796ca96"
+    "revision": "bbcab60f284b295063ad69debc0ffd93"
   },
   {
     "url": "static/css/main.cbbeb560.css",
