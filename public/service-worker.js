@@ -64,7 +64,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "3935c2976059e5f0abf1a4033673da4e"
+    "revision": "b05fadd8934c613f08af2c5cf22ee966"
   },
   {
     "url": "ios_splash.js",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.json",
-    "revision": "7ef30b0393236226679317b7afab20bb"
+    "revision": "35ff445f9b62a15ed8c57f0cbab50af5"
   },
   {
     "url": "static/css/main.e0d9569e.css",
