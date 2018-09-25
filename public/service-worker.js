@@ -13,6 +13,9 @@
 
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.1/workbox-sw.js");
 
+workbox.skipWaiting();
+workbox.clientsClaim();
+
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
  * requests for URLs in the manifest.
@@ -21,7 +24,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.1/workbox
 self.__precacheManifest = [
   {
     "url": "asset-manifest.json",
-    "revision": "17ac68ca1f1624525d505c616491d70e"
+    "revision": "8dd154bfb296a909c5fdfb56e81dab2d"
   },
   {
     "url": "favicon-32x32.png",
@@ -29,87 +32,75 @@ self.__precacheManifest = [
   },
   {
     "url": "images/icon-128x128.png",
-    "revision": "6aa181828d6569d9c291eac3401100dd"
+    "revision": "5cbdb95eba0b3dd4eb10e4c8e78a7be5"
   },
   {
     "url": "images/icon-144x144.png",
-    "revision": "ae6ab6cfe1b7073dd3798d8abb962cac"
+    "revision": "4c1ea81a7a6ab663c8ba155ae0c0aad0"
   },
   {
     "url": "images/icon-152x152.png",
-    "revision": "62369812c2402585fcfcd11147c5ae23"
+    "revision": "462a84743116f4506d71692f5588d8a8"
   },
   {
     "url": "images/icon-192x192.png",
-    "revision": "c881bc7340b9908e8c57743dc5afb128"
+    "revision": "a4089d3036cbd4b023cd12f36edbec07"
   },
   {
     "url": "images/icon-384x384.png",
-    "revision": "d02f1da8aad8b80145777936d738a8f1"
+    "revision": "65d598def1c91aebe8e6c5169b95216b"
   },
   {
     "url": "images/icon-512x512.png",
-    "revision": "55fc30c5d195b21ad508ba71625e5d3e"
+    "revision": "b186d159d59b3e399731dedcab1a215c"
   },
   {
     "url": "images/icon-72x72.png",
-    "revision": "bb8d6f128ff56b6623bca0a258aa656a"
+    "revision": "dae20dda483d26c779bb9f77160e4d0f"
   },
   {
     "url": "images/icon-96x96.png",
-    "revision": "d07a9a17bee53c5454a9a750afe5c7e2"
+    "revision": "9a8ad6ec8b5a96c74330b2ca1c9020c1"
   },
   {
     "url": "index.html",
-    "revision": "65a71edb1dcafb72d0fa0055f5820737"
+    "revision": "e500279159314a33a7f65b3c43fc0ba3"
   },
   {
     "url": "ios_splash.js",
-    "revision": "395c3cb0dd6458286156106577f08a00"
+    "revision": "77023cc5a35c66a303853d8e50c62f89"
   },
   {
-    "url": "ios/icon_ipad_ios6_retina.png",
-    "revision": "55272ac345e3e899cd3ecbe10d3a1179"
+    "url": "ios/ios-appicon-120-120.png",
+    "revision": "21875d18184365b5e8abc187247a821d"
   },
   {
-    "url": "ios/icon_ipad_ios6.png",
-    "revision": "4de01d39cfc5b1d7198e56d955603466"
+    "url": "ios/ios-appicon-152-152.png",
+    "revision": "60592a5df1acf8acdc22af31567bf0b4"
   },
   {
-    "url": "ios/icon_ipad_ios7_retina.png",
-    "revision": "db6682c26f1d5f569e695be4788474bf"
+    "url": "ios/ios-appicon-180-180.png",
+    "revision": "39ab90e22e071c44887cb2ecf8960f6b"
   },
   {
-    "url": "ios/icon_ipad_ios7.png",
-    "revision": "becd43825477b19d4178996143c44d0b"
+    "url": "ios/ios-appicon-76-76.png",
+    "revision": "2dc498821b175890844a7e9f19bd571a"
   },
   {
-    "url": "ios/icon_iphone_ios6_retina.png",
-    "revision": "7cfacb1fe61f4f6c73e0f0868eeedc79"
-  },
-  {
-    "url": "ios/icon_iphone_ios6.png",
-    "revision": "e9cd9f234fe1ee3afb1819304f5f55ad"
-  },
-  {
-    "url": "ios/icon_iphone_ios7_retina.png",
-    "revision": "71915a195d92e2260f9048ff0fa168dd"
-  },
-  {
-    "url": "ios/icon_iphone_ios7.png",
-    "revision": "dc839afa33448f1b53e0573224716f7c"
+    "url": "ios/ios-launchimage-1242-2208.png",
+    "revision": "44a10fb4d124f88f9a6b63f700f916f0"
   },
   {
     "url": "manifest.json",
-    "revision": "a9d863acc177eefc217208a5eb35591b"
+    "revision": "a4af0401f445ad5ce7fd00a47056dcee"
   },
   {
     "url": "static/css/main.92e7bc96.css",
     "revision": "87c1abde089dda1b29cd213c2f86e39c"
   },
   {
-    "url": "static/js/main.5311739c.js",
-    "revision": "e641f8fdb631298d344ae6ee11a4da55"
+    "url": "static/js/main.9b8d7b3c.js",
+    "revision": "17a01d97bdb4084395f8277c7713d84d"
   },
   {
     "url": "static/media/dxcLogo.8500f535.svg",
@@ -163,7 +154,8 @@ self.__precacheManifest = [
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
+workbox.routing.registerNavigationRoute("/index.html");
+
 workbox.routing.registerRoute(/https:\/\/dxc-interview-tracking-api-release.azurewebsites.net\/api\/(.*)/, workbox.strategies.networkFirst(), 'GET');
 workbox.routing.registerRoute(/https:\/\/dxc-interview-tracking-api-release.azurewebsites.net\/api\/(.*)/, workbox.strategies.staleWhileRevalidate({ plugins: [new workbox.cacheableResponse.Plugin({"statuses":[0,200]})] }), 'GET');
-workbox.routing.registerRoute("https://use.fontawesome.com/7bfa61cd5b.js", workbox.strategies.networkFirst({ plugins: [new workbox.cacheableResponse.Plugin({"statuses":[0,200]})] }), 'GET');
-workbox.routing.registerRoute(/https:\/\/dxc-interview-tracking-api-release.azurewebsites.net\/api\/(.*)/, workbox.strategies.cacheFirst({ "cacheName":"my-api-cache", plugins: [new workbox.expiration.Plugin({"maxEntries":100,"maxAgeSeconds":2592000,"purgeOnQuotaError":false}), new workbox.cacheableResponse.Plugin({"statuses":[0,200]})] }), 'GET');
+workbox.routing.registerRoute(/https:\/\/dxc-interview-tracking-api-release.azurewebsites.net\/api\/(.*)/, workbox.strategies.cacheFirst({ "cacheName":"my-api-cache", plugins: [new workbox.expiration.Plugin({"maxEntries":50,"maxAgeSeconds":2592000,"purgeOnQuotaError":false}), new workbox.cacheableResponse.Plugin({"statuses":[0,200]})] }), 'GET');
