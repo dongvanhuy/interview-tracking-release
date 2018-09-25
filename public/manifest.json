@@ -1,17 +1,11 @@
 {
   "name": "Interview Tracking",
-  "short_name": "Interview v1.0",
-  "theme_color": "#FFFFFF",
-  "background_color": "#FFFFFF",
+  "short_name": "Interview 1.0",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
   "display": "standalone",
   "orientation": "any",
-  "scope": "/",
-  "start_url": "/",
-  "serviceworker": {
-    "src": "./service-worker.js",
-    "scope": "/"
-  },
-  "prefer_related_applications": true,
+  "start_url": "/index.html",
   "icons": [
     {
       "src": "images/icon-72x72.png",
