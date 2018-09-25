@@ -61,7 +61,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "593b52bf2024d43b6f59499603ca15a6"
+    "revision": "65a71edb1dcafb72d0fa0055f5820737"
   },
   {
     "url": "ios_splash.js",
@@ -163,7 +163,7 @@ self.__precacheManifest = [
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerRoute(/https:\/\/dxc-interview-tracking-api-release.azurewebsites.net\/api\/(.*)/, workbox.strategies.networkFirst({ "cacheName":"my-api-cache","networkTimeoutSeconds":10,"fetchOptions":{"mode":"no-cors"},"matchOptions":{"ignoreSearch":true}, plugins: [new workbox.expiration.Plugin({"maxEntries":100,"maxAgeSeconds":60,"purgeOnQuotaError":false}), new workbox.cacheableResponse.Plugin({"statuses":[0,200],"headers":{"x-test":"true"}}), new workbox.broadcastUpdate.Plugin("my-update-channel")] }), 'GET');
+workbox.routing.registerRoute(/https:\/\/dxc-interview-tracking-api-release.azurewebsites.net\/api\/(.*)/, workbox.strategies.networkFirst(), 'GET');
 workbox.routing.registerRoute(/https:\/\/dxc-interview-tracking-api-release.azurewebsites.net\/api\/(.*)/, workbox.strategies.staleWhileRevalidate({ plugins: [new workbox.cacheableResponse.Plugin({"statuses":[0,200]})] }), 'GET');
 workbox.routing.registerRoute("https://use.fontawesome.com/7bfa61cd5b.js", workbox.strategies.networkFirst({ plugins: [new workbox.cacheableResponse.Plugin({"statuses":[0,200]})] }), 'GET');
 workbox.routing.registerRoute(/https:\/\/dxc-interview-tracking-api-release.azurewebsites.net\/api\/(.*)/, workbox.strategies.cacheFirst({ "cacheName":"my-api-cache", plugins: [new workbox.expiration.Plugin({"maxEntries":100,"maxAgeSeconds":2592000,"purgeOnQuotaError":false}), new workbox.cacheableResponse.Plugin({"statuses":[0,200]})] }), 'GET');
