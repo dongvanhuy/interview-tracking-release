@@ -6,7 +6,7 @@
   "display": "standalone",
   "orientation": "any",
   "scope": "/",
-  "start_url": "/index.html?homescreen=1",
+  "start_url": "https://dxc-interview-tracking-release.azurewebsites.net/profile",
   "icons": [
     {
       "src": "images/icon-72x72.png",
