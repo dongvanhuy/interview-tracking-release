@@ -1,12 +1,19 @@
 {
   "name": "Interview Tracking",
-  "short_name": "Interview v1.1",
+  "short_name": "Interview v1.2",
   "theme_color": "#000000",
   "background_color": "#FFFFFF",
-  "display": "standalone",
   "orientation": "any",
-  "scope": "/",
-  "start_url": "/index.html",
+  "start_url": "/profile",
+  "display": "fullscreen",
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "tracking",
+      "id": "com.dxc.techonology"
+    }
+  ],
+  "gcm_sender_id": "625437047446",
   "icons": [
     {
       "src": "images/icon-72x72.png",
