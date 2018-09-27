@@ -1,10 +1,10 @@
 {
   "name": "Interview Tracking",
-  "short_name": "Interview v1.6",
+  "short_name": "Interview v1.7",
   "theme_color": "#000000",
   "background_color": "#FFFFFF",
   "orientation": "any",
-  "start_url": "/",
+  "start_url": "/index.html",
   "display": "fullscreen",
   "icons": [
     {
