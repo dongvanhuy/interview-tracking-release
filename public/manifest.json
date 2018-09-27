@@ -1,10 +1,10 @@
 {
   "name": "Interview Tracking",
-  "short_name": "Interview v1.4",
+  "short_name": "Interview v1.5",
   "theme_color": "#000000",
   "background_color": "#FFFFFF",
   "orientation": "any",
-  "start_url": "/",
+  "start_url": "https://dxc-interview-tracking-release.azurewebsites.net/profile",
   "display": "standalone",
   "icons": [
     {
