@@ -24,7 +24,7 @@ workbox.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "asset-manifest.json",
-    "revision": "30a39ecf04d340dc11e18ed4ec9e5835"
+    "revision": "7ae1024ea32a29d4a189e8b4dd8726d8"
   },
   {
     "url": "favicon-32x32.png",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "80ae8fcb3743905f6b31e665e11253e2"
+    "revision": "bc32e545a89b9ebc36ca311745d15e05"
   },
   {
     "url": "ios_splash.js",
@@ -92,15 +92,15 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.json",
-    "revision": "cc50d5015e01d0bc25b1b1fb9161f96d"
+    "revision": "b3ae90ea080784432fbacb628af9dc48"
   },
   {
-    "url": "static/css/main.cc5d5970.css",
-    "revision": "3bd42a6771d39cf9744faa56c07c796c"
+    "url": "static/css/main.38dce89a.css",
+    "revision": "9dc3d9645f26be03731965c7f72dfd17"
   },
   {
-    "url": "static/js/main.b865582b.js",
-    "revision": "f36ca45518aa32a41fc0af62b938caa0"
+    "url": "static/js/main.b4f49798.js",
+    "revision": "940be24a928bb5dc858d81856a578796"
   },
   {
     "url": "static/media/dxcLogo.8500f535.svg",
@@ -135,12 +135,20 @@ self.__precacheManifest = [
     "revision": "7052fe6d98383402c64153edbfd406a9"
   },
   {
+    "url": "static/media/human.5cdba979.png",
+    "revision": "5cdba979814b074eb2732ff6955a14d4"
+  },
+  {
     "url": "static/media/illustration.68e13737.png",
     "revision": "68e13737d82e40acba0554b8abb08b16"
   },
   {
     "url": "static/media/loading.1336a69b.svg",
     "revision": "1336a69b3b60ec204ed4d6685c3dfdfb"
+  },
+  {
+    "url": "static/media/plus.18eb8258.png",
+    "revision": "18eb8258fc0474b368248a54414a24af"
   },
   {
     "url": "static/media/ProximaNova-Bold.72b6f2c9.otf",
