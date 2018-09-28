@@ -24,7 +24,7 @@ workbox.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "asset-manifest.json",
-    "revision": "f5e595645a6b41b2da3893455f11a26f"
+    "revision": "e796ee89634af1faebda6475474a0957"
   },
   {
     "url": "favicon-32x32.png",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "9292e8ee400ca849e79fbb89e5c4464a"
+    "revision": "7d4a2b1eb1b339da7c2d98d7de238f10"
   },
   {
     "url": "ios_splash.js",
@@ -99,8 +99,8 @@ self.__precacheManifest = [
     "revision": "e29c37b8dfb800f378862f44f5bca9d5"
   },
   {
-    "url": "static/js/main.c51b9ca1.js",
-    "revision": "3c6f9d83b61dd66449d435b23ae54e2e"
+    "url": "static/js/main.ae991da1.js",
+    "revision": "662cd95ae32ddc2bb9d4a8791bbb7b08"
   },
   {
     "url": "static/media/delete.2239c602.svg",
