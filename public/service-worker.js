@@ -24,7 +24,7 @@ workbox.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "asset-manifest.json",
-    "revision": "5db92807e17d4300a3efbac9775f2bdb"
+    "revision": "5445159948a8a70a53a2f6e62ee92ea7"
   },
   {
     "url": "favicon-32x32.png",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "9c4d19b5a4e7ff79aa0718c4192b2e02"
+    "revision": "ba13ed89a96b45b064aafa98000c35db"
   },
   {
     "url": "ios_splash.js",
@@ -92,15 +92,15 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.json",
-    "revision": "b220577f80b078663a0e53cc3e6b3641"
+    "revision": "8352f3a8c774a8f46a5479e8f188f471"
   },
   {
-    "url": "static/css/main.8bdcaa50.css",
-    "revision": "5163c18bda49a853093d83bfa1ee53a1"
+    "url": "static/css/main.bd36b430.css",
+    "revision": "d87b3113f409a9b19fbaa6c13f165193"
   },
   {
-    "url": "static/js/main.2ec9ddc5.js",
-    "revision": "00797b506f84d6285228715086a69fa4"
+    "url": "static/js/main.e4ccfb33.js",
+    "revision": "af5a68c7acdcfd9d6427c08737e33dd2"
   },
   {
     "url": "static/media/delete.9659bd13.png",
