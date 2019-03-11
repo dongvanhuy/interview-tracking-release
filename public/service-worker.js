@@ -11,7 +11,7 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.1/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 workbox.skipWaiting();
 workbox.clientsClaim();
@@ -24,7 +24,7 @@ workbox.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "asset-manifest.json",
-    "revision": "989f322112e41d18e72201b6bb1e806b"
+    "revision": "071db794dc21bef2495ec93dc2fe82d7"
   },
   {
     "url": "favicon-32x32.png",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "a75ac2854f1b5cbeb5bf8c10fec64ff5"
+    "revision": "62799fbc16b66182fc9f781b0938a63a"
   },
   {
     "url": "ios_splash.js",
@@ -95,12 +95,12 @@ self.__precacheManifest = [
     "revision": "8352f3a8c774a8f46a5479e8f188f471"
   },
   {
-    "url": "static/css/main.bd36b430.css",
-    "revision": "d87b3113f409a9b19fbaa6c13f165193"
+    "url": "static/css/main.3f8106e4.css",
+    "revision": "df4f56acd2cb629eaaa0c0b3ffa243f9"
   },
   {
-    "url": "static/js/main.52a51a7c.js",
-    "revision": "83aabd06a9b47a043c97a506ebfaa394"
+    "url": "static/js/main.6812a1a2.js",
+    "revision": "5c8b8ea35834a81e4deaebefdd203b7f"
   },
   {
     "url": "static/media/delete.9659bd13.png",
@@ -157,10 +157,6 @@ self.__precacheManifest = [
   {
     "url": "static/media/ProximaNova-Bold.72b6f2c9.otf",
     "revision": "72b6f2c9990bd3d37b8013a59ed78902"
-  },
-  {
-    "url": "styles/index.css",
-    "revision": "664a9bd3b2ac169293391ea33b132bd6"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
