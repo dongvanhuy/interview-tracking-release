@@ -24,7 +24,7 @@ workbox.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "asset-manifest.json",
-    "revision": "486960365c5b7b3ccf099f2371233df8"
+    "revision": "071db794dc21bef2495ec93dc2fe82d7"
   },
   {
     "url": "favicon-32x32.png",
@@ -64,11 +64,11 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "680407d7689c4799c3f395a97393ff3c"
+    "revision": "62799fbc16b66182fc9f781b0938a63a"
   },
   {
     "url": "ios_splash.js",
-    "revision": "88530d3ee07b623cb93a0dd078e4679a"
+    "revision": "77023cc5a35c66a303853d8e50c62f89"
   },
   {
     "url": "ios/ios-appicon-120-120.png",
@@ -92,23 +92,23 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.json",
-    "revision": "bf9eee83592297cbd88868cff4ec8b89"
+    "revision": "8352f3a8c774a8f46a5479e8f188f471"
   },
   {
-    "url": "static/css/main.6bd6deaa.css",
-    "revision": "f0035542a872d68be0f985a6952daa79"
+    "url": "static/css/main.3f8106e4.css",
+    "revision": "df4f56acd2cb629eaaa0c0b3ffa243f9"
   },
   {
-    "url": "static/js/main.56f3ec27.js",
-    "revision": "5c4a4ec70a5b0404d66ae25d7c73f19c"
+    "url": "static/js/main.6812a1a2.js",
+    "revision": "5c8b8ea35834a81e4deaebefdd203b7f"
   },
   {
     "url": "static/media/delete.9659bd13.png",
     "revision": "9659bd1354c03b40663693044858bdfa"
   },
   {
-    "url": "static/media/dxcLogo.62446d40.svg",
-    "revision": "62446d40d7170bbf456faf4815d3a9ce"
+    "url": "static/media/dxcLogo.8500f535.svg",
+    "revision": "8500f53521d6cbd1d3cb2253b0e5f888"
   },
   {
     "url": "static/media/glyphicons-halflings-regular.448c34a5.woff2",
