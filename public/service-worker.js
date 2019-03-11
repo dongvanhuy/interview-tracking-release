@@ -11,7 +11,7 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.1/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 workbox.skipWaiting();
 workbox.clientsClaim();
@@ -24,7 +24,7 @@ workbox.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "asset-manifest.json",
-    "revision": "989f322112e41d18e72201b6bb1e806b"
+    "revision": "486960365c5b7b3ccf099f2371233df8"
   },
   {
     "url": "favicon-32x32.png",
@@ -64,11 +64,11 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "a75ac2854f1b5cbeb5bf8c10fec64ff5"
+    "revision": "680407d7689c4799c3f395a97393ff3c"
   },
   {
     "url": "ios_splash.js",
-    "revision": "77023cc5a35c66a303853d8e50c62f89"
+    "revision": "88530d3ee07b623cb93a0dd078e4679a"
   },
   {
     "url": "ios/ios-appicon-120-120.png",
@@ -92,23 +92,23 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.json",
-    "revision": "8352f3a8c774a8f46a5479e8f188f471"
+    "revision": "bf9eee83592297cbd88868cff4ec8b89"
   },
   {
-    "url": "static/css/main.bd36b430.css",
-    "revision": "d87b3113f409a9b19fbaa6c13f165193"
+    "url": "static/css/main.6bd6deaa.css",
+    "revision": "f0035542a872d68be0f985a6952daa79"
   },
   {
-    "url": "static/js/main.52a51a7c.js",
-    "revision": "83aabd06a9b47a043c97a506ebfaa394"
+    "url": "static/js/main.56f3ec27.js",
+    "revision": "5c4a4ec70a5b0404d66ae25d7c73f19c"
   },
   {
     "url": "static/media/delete.9659bd13.png",
     "revision": "9659bd1354c03b40663693044858bdfa"
   },
   {
-    "url": "static/media/dxcLogo.8500f535.svg",
-    "revision": "8500f53521d6cbd1d3cb2253b0e5f888"
+    "url": "static/media/dxcLogo.62446d40.svg",
+    "revision": "62446d40d7170bbf456faf4815d3a9ce"
   },
   {
     "url": "static/media/glyphicons-halflings-regular.448c34a5.woff2",
@@ -157,10 +157,6 @@ self.__precacheManifest = [
   {
     "url": "static/media/ProximaNova-Bold.72b6f2c9.otf",
     "revision": "72b6f2c9990bd3d37b8013a59ed78902"
-  },
-  {
-    "url": "styles/index.css",
-    "revision": "664a9bd3b2ac169293391ea33b132bd6"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
